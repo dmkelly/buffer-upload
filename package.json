@@ -1,0 +1,40 @@
+{
+  "name": "buffer-upload",
+  "version": "0.0.0",
+  "engines": {
+    "node": "0.10.30"
+  },
+  "description": "Express middleware to attach uploaded files to a request as buffers",
+  "main": "src/index.js",
+  "scripts": {
+    "pretest": "jshint src && jshint test",
+    "test": "jasmine-node test/unit"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/dmkelly/buffer-upload"
+  },
+  "keywords": [
+    "express",
+    "middleware",
+    "file",
+    "buffer",
+    "upload"
+  ],
+  "author": "Dave Kelly",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dmkelly/buffer-upload/issues"
+  },
+  "homepage": "https://github.com/dmkelly/buffer-upload",
+  "devDependencies": {
+    "jasmine-node": "1.14.5",
+    "jshint": "2.5.5"
+  },
+  "dependencies": {
+    "mime": "1.2.11",
+    "multiparty": "3.3.2",
+    "qs": "2.2.3",
+    "underscore": "1.7.0"
+  }
+}
